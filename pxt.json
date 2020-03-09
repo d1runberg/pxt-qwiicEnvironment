@@ -1,7 +1,7 @@
 {
-    "name": "gatorEnvironment",
+    "name": "qwiicEnvironment",
     "version": "1.0.13",
-    "description": "SparkFun gator:Particle Particle Sensor",
+    "description": "SparkFun Qwiic Environmental Combination board with micro:bit",
     "license": "MIT",
     "dependencies": {
         "core": "*"
