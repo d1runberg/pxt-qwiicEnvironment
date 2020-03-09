@@ -16,7 +16,7 @@
      * Distributed as-is; no warranty is given.
      */
 
-declare namespace gatorEnvironment {
+declare namespace qwiicEnvironment {
 }
 
 // Auto-generated. Do not edit. Really.
