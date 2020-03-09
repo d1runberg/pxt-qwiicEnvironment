@@ -17,12 +17,12 @@
  * Functions to operate the gatorEnvironment sensor
  */
 
-gatorEnvironment.beginEnvironment()
+qwiicEnvironment.beginEnvironment()
 basic.forever(function () {
-    serial.writeLine("" + gatorEnvironment.getMeasurement(measurementType.degreesC))
-    serial.writeLine("" + gatorEnvironment.getMeasurement(measurementType.degreesF))
-    serial.writeLine("" + gatorEnvironment.getMeasurement(measurementType.humidity))
-    serial.writeLine("" + gatorEnvironment.getMeasurement(measurementType.pressure))
-    serial.writeLine("" + gatorEnvironment.getMeasurement(measurementType.eCO2))
-    serial.writeLine("" + gatorEnvironment.getMeasurement(measurementType.TVOC))
+    serial.writeLine("" + qwiicEnvironment.getMeasurement(measurementType.degreesC))
+    serial.writeLine("" + qwiicEnvironment.getMeasurement(measurementType.degreesF))
+    serial.writeLine("" + qwiicEnvironment.getMeasurement(measurementType.humidity))
+    serial.writeLine("" + qwiicEnvironment.getMeasurement(measurementType.pressure))
+    serial.writeLine("" + qwiicEnvironment.getMeasurement(measurementType.eCO2))
+    serial.writeLine("" + qwiicEnvironment.getMeasurement(measurementType.TVOC))
 })
