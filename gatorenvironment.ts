@@ -31,12 +31,12 @@ namespace qwiicEnvironment {
     // Functions for reading Particle from the gatorEnvironment in Particle or straight adv value
 	
 	/**
-	* Initialize the gator:environment sensor for readings
+	* Initialize the qwiicEnvironment sensor for readings
 	*/
 	//% weight=32 
-	//% blockId="gatorEnvironment_beginEnvironment" 
-	//% block="initialize gator:Environment sensors"
-	//% shim=gatorEnvironment::beginEnvironment
+	//% blockId="qwiicEnvironment_beginEnvironment" 
+	//% block="initialize qwiicEnvironment sensors"
+	//% shim=qwiicEnvironment::beginEnvironment
 	export function beginEnvironment(){
 		return
 	}
@@ -45,9 +45,9 @@ namespace qwiicEnvironment {
 	* Grab the temperature, humidity, pressure, equivalent C02, or total Volatile Organic Compounds from the gator:environment
 	*/
 	//% weight=31
-	//% blockId="gatorEnvironment_getMeasurement"
+	//% blockId="qwiicEnvironment_getMeasurement"
 	//% block="get %measurementType | value"
-	//% shim=gatorEnvironment::getMeasurement
+	//% shim=qwiicEnvironment::getMeasurement
 	export function getMeasurement(type: measurementType): number{
 		return 0
 	}
